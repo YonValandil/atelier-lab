@@ -1,0 +1,13 @@
+//commencer le tab a l'adresse +1, et stocker la taille au premier offset
+int t[11];
+t++;
+t[-1] = 10;
+
+//avec les retours, tricks pour plusieurs conditions sur une ligne
+error && print_error() //si error = 0, le compilateur ne lit pas le print_error
+
+uchar 0  +255
+char -127 + 128
+
+//permet de convertir une valeur signe en non signe et vice versa
+n = ~n + 1 //soit +1
