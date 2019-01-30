@@ -1,0 +1,6 @@
+{
+# "extends": "stylelint-config-standard"
+# "extends": "stylelint-config-recommended"
+"extends": "stylelint-config-recommended-scss"
+# "extends": "stylelint-config-sass-guidelines"
+}
