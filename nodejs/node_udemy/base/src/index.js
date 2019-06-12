@@ -1,8 +1,8 @@
-// @flow
-
 console.log('starting file');
 
 const fs = require('fs');
+
+// fs.
 
 const addNote = (title, body) => {
   let notes = [];
@@ -26,6 +26,7 @@ const addNote = (title, body) => {
 
 const getAll = () => {
   console.log('getting all notes');
+  // consol
 };
 
 const read = (title, body) => {
@@ -37,11 +38,13 @@ const remove = (title) => {
 };
 
 // Test types errors with Flow JS
-function square(n) {
+function square(n: number) {
   return n * n; // Error!
 }
 
+square(true);
 square('2');
+//----------------------
 
 module.exports = {
   addNote,
